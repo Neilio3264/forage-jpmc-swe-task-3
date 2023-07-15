@@ -19,8 +19,8 @@ export class DataManipulator {
 
     const ratio = priceABC / priceDEF;
 
-    const upperBound = 1 + 0.05;
-    const lowerBound = 1 - 0.05;
+    const upperBound = 1 + 0.03;
+    const lowerBound = 1 - 0.03;
 
     return {
       price_abc: priceABC,
